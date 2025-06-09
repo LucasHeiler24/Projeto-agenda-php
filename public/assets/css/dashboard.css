@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    background: #0F0529;
+}
+
+section{
+    height: 100vh;
+    background: #0F0529;
+    color: #fff;
+}
+
+header{
+    height: 15vh;
+    background: #3A025B;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-btn{
+    width: 100%;
+}
+
+.container-btn button{
+    width: 100%;
+}
+
+.content-data{
+    width: 100%;
+    height: 15vh;
+    background: #11001C;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+i{
+    color: #fff;
+    cursor: pointer;
+}
+
+.cadastro-registro{
+    color: #fff;
+}
+
+.content-form{
+    height: 100%;
+    width: 100%;
+}
+
+.circulo-categoria{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.content-table{
+    height: auto;
+    background: #1f112b;
+    border: 1px solid #fff;
+}
+
+.content-table h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content-table table{
+    color: #fff;
+}
+
+.content-table a{
+    text-decoration: none;
+    font-style: none;
+}
+
+.cadastro-editar{
+    color: #fff;
+}
+
+.container-graficos{
+    height: auto;
+    background: #0e021d;
+}
+
+.content-graficos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.tela-graficos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.tamanho-grafico{
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width: 425px){
+    header h1{
+        font-size: 23px;
+    }
+}
